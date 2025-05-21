@@ -1,0 +1,46 @@
+.child1{
+  display: flex;
+  background-color: aliceblue;
+  justify-content: center;
+  gap: 50px;
+  padding: 3%;
+}
+.left button{
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border-style: none;
+  padding: 5%;
+  background-color: grey;
+  color: white;
+  
+ 
+}
+.left,.right{
+  /* box-shadow: 4px 4px 5px 4px gray; */
+  width: 40%;
+  padding: 5%;
+  border-radius: 10px;
+  border-style: none;
+  background-color: whitesmoke;
+}
+.right table tr td{
+  background-color:  grey;
+  padding: 3%;
+  width: 10%;
+  color: white;
+}
+.right table tr td button{
+  margin-left: 50%;
+  border-radius: 10px;
+  padding: 2%;
+  background-color:  #1D4ED8;
+  color: white;
+}
+.cart-container{
+  background-color:aliceblue ;
+  text-align: center;
+  width: fit-content;
+  padding: 1%;
+  margin-top: 2%;
+  margin-left: 43%;
+}
