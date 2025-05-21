@@ -32,12 +32,14 @@ const App = () => {
   const handleElectronics = () => {
     setElectronic(Electronics);
     setState(true);
+    setCategory("")
    
   };
 
   const handleFashion = () => {
     setFashion(Wear);
     setState(false);
+    setCategory("")
     
   };
 
@@ -60,7 +62,7 @@ const App = () => {
         </div>
         <div className="right">
         <h1>🛍️Products</h1>
-        {category ? "Select a category" :""}
+        {category ? "Select a Category" :""}
         {state ? (
           <>
             <table>
